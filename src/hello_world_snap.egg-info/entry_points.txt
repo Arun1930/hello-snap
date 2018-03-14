@@ -1,0 +1,3 @@
+[console_scripts]
+say-hello = datahub.modbus_module.say_hello:main
+

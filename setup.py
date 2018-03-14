@@ -11,6 +11,6 @@ setup(
     package_dir={'': 'src'},
     packages=['datahub', 'datahub.modbus_module'],
     entry_points={
-        'console_scripts': ['say-hello=modbus_module.say_hello:main'],
+        'console_scripts': ['say-hello=datahub.modbus_module.say_hello:main'],
     },
     zip_safe=False)

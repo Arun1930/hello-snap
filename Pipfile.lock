@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6a33c78312d762416fff80df5650cee2a57a76fc6c1e316df4897d84b7e9200f"
+            "sha256": "ccc226d4019bfb2a988e1d44555d19980df498f3343ee6ebb505d1ba1747570a"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -35,6 +35,10 @@
                 "sha256:48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1"
             ],
             "version": "==0.3.9"
+        },
+        "e1839a8": {
+            "editable": true,
+            "path": "."
         },
         "pyfiglet": {
             "hashes": [
