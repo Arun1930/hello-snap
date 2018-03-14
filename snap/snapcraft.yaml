@@ -1,0 +1,24 @@
+name: datahub
+version: '3.0'
+summary: ioCurrents Datahub data collection system.
+description: |
+  This is the workhorse of the datahub collection system. It contains all
+  the data collection modules as well as IPC and data aggregation logic.
+
+grade: devel
+confinement: devmode
+
+apps:
+  modbus-client:
+    command: bin/modbus-client
+    plugs: [network]
+
+parts:
+  modbus-client:
+    plugin: python
+    python-version: python3
+    source: .
+    requirements: requirements.txt
+
+
+
