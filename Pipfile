@@ -7,6 +7,9 @@ name = "pypi"
 
 [packages]
 
+pyfiglet = "*"
+colorama = "*"
+termcolor = "*"
 
 
 [dev-packages]

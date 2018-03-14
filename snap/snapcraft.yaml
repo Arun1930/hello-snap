@@ -1,24 +1,17 @@
 name: datahub
 version: '3.0'
-summary: ioCurrents Datahub data collection system.
-description: |
-  This is the workhorse of the datahub collection system. It contains all
-  the data collection modules as well as IPC and data aggregation logic.
-
+summary: hello
+description: hello
 grade: devel
 confinement: devmode
 
 apps:
-  modbus-client:
-    command: bin/modbus-client
-    plugs: [network]
+  say-hello:
+    command: bin/say-hello
 
 parts:
-  modbus-client:
+  say-hello:
     plugin: python
     python-version: python3
-    source: .
-    requirements: requirements.txt
-
-
-
+    source: https://github.com/friedmanss/hello-snap.git
+    source-branch: master
