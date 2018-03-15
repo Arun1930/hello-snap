@@ -8,9 +8,7 @@ name = "pypi"
 [packages]
 
 pyfiglet = "*"
-colorama = "*"
 termcolor = "*"
-"e1839a8" = {path = ".", editable = true}
 
 
 [dev-packages]

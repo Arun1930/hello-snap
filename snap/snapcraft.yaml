@@ -13,5 +13,6 @@ parts:
   say-hello:
     plugin: python
     python-version: python3
-    source: https://github.com/friedmanss/hello-snap.git
-    source-branch: master
+    source: .
+    requirements: requirements.txt
+    install: rm requirements.txt && ls -al
